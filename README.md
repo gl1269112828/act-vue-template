@@ -40,8 +40,9 @@ http://www.autoct.top
 ## install act cli
 
 1. npm i act-vue-tp -g
-2. npm i //(vue.config.js 文件下配置 target 代理地址)
-3. npm run dev
+2. npm i 
+3. vue.config.js 配置 target
+4. npm run dev
 
 # Join Us
 
