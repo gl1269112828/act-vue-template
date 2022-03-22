@@ -1,0 +1,68 @@
+{
+  "name": "act-vue-template",
+  "version": "1.0.0",
+  "private": false,
+  "description": "act is an open source and free automated configuration middle and back-end integrated product solution. It is an automated configuration system developed by vue2 and element ui. The most popular front-end technology stack and back-end service technology stack can be used to quickly build a back-end management system, Assistant agile system development.",
+  "author": "destiny; simple.phil",
+  "license": "Apache 2.0",
+  "keywords": [
+    "act-vue-template",
+    "cli",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gl1269112828/act-vue-template.git"
+  },
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name act --dest lib ./src/main.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "default-passive-events": "^2.0.0",
+    "download-git-repo": "^3.0.2",
+    "element-ui": "^2.15.3",
+    "js-base64": "^3.6.1",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^6.0.1",
+    "normalize.css": "^8.0.1",
+    "sass-loader": "^10.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

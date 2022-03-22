@@ -1,0 +1,43 @@
+
+/* 主菜单 */
+
+//宽度
+$menuWidth: 200px;
+//背景色
+$menuBg:#FFFFFF;
+//菜单字体颜色
+$menuText:#444;
+//选中背景色
+$menuCheckedBg:#0089ff;
+//选中字体颜色
+$menuCheckedText:#FFFFFF;
+//移入颜色
+$menuHover:#FFFFFF;
+//移入字体颜色
+$textHover:#409EFF;
+
+
+
+
+/* 子菜单 */
+
+//背景色
+$childMenuBg:#FFFFFF;
+//移入颜色
+$childMenuHover:#FFFFFF;
+//移入字体颜色
+$childTextHover:#409EFF;
+
+
+:export {
+  menuWidth:$menuWidth;
+  menuBg: $menuBg;
+  menuText: $menuText;
+  menuCheckedBg:$menuCheckedBg;
+  menuCheckedText:$menuCheckedText;
+  menuHover: $menuHover;
+  textHover:$textHover;
+  childMenuBg:$childMenuBg;
+  childMenuHover:$childMenuHover;
+  childTextHover:$childTextHover;
+}

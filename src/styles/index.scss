@@ -1,0 +1,15 @@
+@import './sidebarConfig.scss';
+@import './sidebar.scss';
+@import './element-ui.scss';
+
+.flex {
+  display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+  display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box; /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox; /* 混合版本语法: IE 10 */
+  display: flex;
+}
+.table-operate-btn {
+  padding: 0 4px;
+  margin: 0;
+}

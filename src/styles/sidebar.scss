@@ -1,0 +1,58 @@
+#app {
+  .sidebar {
+    background-color: $menuBg;
+    //主菜单字体颜色
+    .el-submenu__title {
+      color: $menuText;
+    }
+
+    .el-submenu.is-active > .el-submenu__title {
+      color: $childTextHover;
+    }
+    .el-submenu.is-active > .el-submenu__title i {
+      color: $childTextHover;
+    }
+
+    //主菜单移入背景色
+    .el-submenu__title:hover {
+      background-color: $menuHover;
+      color: $textHover !important;
+    }
+    .el-submenu__title:hover i {
+      color: $textHover !important;
+    }
+
+    //子菜单背景色
+    .el-menu {
+      background-color: $childMenuBg;
+    }
+    //子菜单字体颜色
+    .el-menu-item {
+      color: $menuText;
+    }
+    //子菜单移入背景色
+    .el-menu-item:focus,
+    .el-menu-item:hover {
+      background-color: $childMenuHover;
+      color: $childTextHover;
+    }
+    //子菜单icon 移入色
+    .el-menu-item:focus i,
+    .el-menu-item:hover i {
+      color: $childTextHover;
+    }
+    //子菜单选中色
+    .el-menu-item.is-active {
+      color: $childTextHover;
+      border-right: 2px solid $childTextHover;
+    }
+
+    .el-menu-vertical-demo:not(.el-menu--collapse) {
+      width: $menuWidth;
+      height: 100%;
+    }
+    .el-menu-item-group__title {
+      padding: 0;
+    }
+  }
+}
